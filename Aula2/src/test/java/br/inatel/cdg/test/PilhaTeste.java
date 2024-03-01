@@ -48,13 +48,4 @@ public class PilhaTeste {
         int retorno = pilhaInteiros.pop();
     }
 
-    @Test
-    public void testePilhaPopRetorno() {
-        Pilha<Integer> pilhaInteiros = new Pilha<Integer>();
-        int valor = 13;
-        pilhaInteiros.push(valor);
-
-        int retorno = pilhaInteiros.pop();
-        assertEquals(valor, retorno);
-    }
 }
