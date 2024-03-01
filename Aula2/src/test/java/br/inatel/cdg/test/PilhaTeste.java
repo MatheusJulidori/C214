@@ -26,7 +26,7 @@ public class PilhaTeste {
     }
 
     @Test
-    public void testePilhaValorElemento() {
+    public void testePilhaPopElemento() {
         Pilha<Integer> pilhaInteiros = new Pilha<Integer>();
         pilhaInteiros.push(13);
         int elemento = pilhaInteiros.pop();
